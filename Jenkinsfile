@@ -4,6 +4,6 @@ node{
   }
   stage ('Compile-package'){
     //sh 'mvn package' // sh is for shell script
-    sh 'echo "Hello Moya Soumya"'
+    sh './myScript.sh'
   }
 }
