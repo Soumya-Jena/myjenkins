@@ -4,6 +4,6 @@ node{
   }
   stage ('Compile-package'){
     //sh 'mvn package' // sh is for shell script
-    sh './myScript.sh'
+    sh 'chmod 755 ./myScript.sh && ./myScript.sh'
   }
 }
